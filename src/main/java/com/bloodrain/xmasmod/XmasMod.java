@@ -42,8 +42,7 @@ public class XmasMod {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> XMAS_TAB = CREATIVE_MODE_TABS.register("xmasmod_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.xmasmod"))
-            .withTabsBefore(CreativeModeTabs.FOOD_AND_DRINKS)
-            .icon(() -> GINGERBREAD_MAN.get().getDefaultInstance())
+            .icon(() -> SANTA_HAT.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(GINGERBREAD_DOUGH.get());
                 output.accept(GINGERBREAD_MAN.get());
@@ -54,6 +53,7 @@ public class XmasMod {
                 output.accept(BAKED_GINGERBREAD_DOUGH.get());
                 output.accept(BAKED_GINGERBREAD_MAN.get());
                 output.accept(BAKED_GINGERBREAD_STAR.get());
+                output.accept(BAKED_BIG_GINGERBREAD.get());
                 output.accept(GINGERBREAD_HELMET.get());
                 output.accept(GINGERBREAD_CHESTPLATE.get());
                 output.accept(GINGERBREAD_LEGGINGS.get());

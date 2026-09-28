@@ -1,10 +1,9 @@
 {
   "itemGroup.xmasmod": "Рождествентский мод",
-  "block.xmasmod.example_block": "Example Block",
   "item.xmasmod.gingerbread_dough": "Пряничное тесто",
-  "item.xmasmod.baked_gingerbread_dough": "Приготовленное пряничное тесто",
+  "item.xmasmod.baked_gingerbread_dough": "Выпеченное пряничное тесто",
   "item.xmasmod.gingerbread_man": "Пряничный человек",
-  "item.xmasmod.baked_gingerbread_man": "Приготовленный пряничный человек",
+  "item.xmasmod.baked_gingerbread_man": "Выпеченный пряничный человек",
   "item.xmasmod.gingerbread_helmet": "Пряничный шлем",
   "item.xmasmod.gingerbread_chestplate": "Пряничный нагрудник",
   "item.xmasmod.gingerbread_leggings": "Пряничные поножи",
@@ -12,10 +11,13 @@
   "item.xmasmod.sugar_glaze": "Сахарная глазурь",
   "item.xmasmod.candy_cane": "Леденец",
   "item.xmasmod.gingerbread_star": "Пряник звезда",
-  "item.xmasmod.baked_gingerbread_star": "Приготовленный пряник звезда",
+  "item.xmasmod.baked_gingerbread_star": "Выпеченный пряник звезда",
   "item.xmasmod.santa_hat": "Шапка Санты",
   "item.xmasmod.santa_jacket": "Куртка Санты",
   "item.xmasmod.santa_pants": "Штаны Санты",
   "item.xmasmod.santa_boots": "Ботинки Санты",
-  "block.xmasmod.snow_bricks": "Снежные кирпичи"
+  "block.xmasmod.snow_bricks": "Снежные кирпичи",
+  "block.xmasmod.snow_brick_stairs": "Кирпичи из снежных кирпичей",
+  "item.xmasmod.big_gingerbread": "Большой пряник",
+  "block.xmasmod.baked_big_gingerbread": "Выпеченный Большой пряник"
 }

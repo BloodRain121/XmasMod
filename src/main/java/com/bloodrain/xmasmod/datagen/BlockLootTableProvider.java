@@ -18,7 +18,7 @@ public class BlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.SNOW_BRICKS.get());
         dropSelf(ModBlocks.SNOW_BRICK_STAIRS.get());
-        dropSelf(ModBlocks.BIG_GINGERBREAD.get());
+        dropSelf(ModBlocks.BAKED_BIG_GINGERBREAD.get());
     }
 
     @Override

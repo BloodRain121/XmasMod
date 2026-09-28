@@ -24,11 +24,12 @@ public class ItemModelProvider extends net.neoforged.neoforge.client.model.gener
         basicItem(ModItems.GINGERBREAD_LEGGINGS.get());
         basicItem(ModItems.GINGERBREAD_BOOTS.get());
         basicItem(ModItems.SUGAR_GLAZE.get());
-        basicItem(ModItems.CANDY_CANE.get());
+        handheldItem(ModItems.CANDY_CANE.get());
         basicItem(ModItems.SANTA_HAT.get());
 //        basicItem(ModItems.SANTA_CHESTPLATE.get());
         basicItem(ModItems.SANTA_PANTS.get());
         basicItem(ModItems.SANTA_BOOTS.get());
         basicItem(ModItems.BIG_GINGERBREAD.get());
+        basicItem(ModItems.BAKED_BIG_GINGERBREAD.get());
     }
 }

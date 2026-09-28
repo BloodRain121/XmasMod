@@ -1,6 +1,5 @@
 {
   "itemGroup.xmasmod": "Christmas mod",
-  "block.xmasmod.example_block": "Example Block",
   "item.xmasmod.gingerbread_dough": "Gingerbread dough",
   "item.xmasmod.baked_gingerbread_dough": "Baked gingerbread dough",
   "item.xmasmod.gingerbread_man": "Gingerbread man",
@@ -17,5 +16,8 @@
   "item.xmasmod.santa_jacket": "Santa jacket",
   "item.xmasmod.santa_pants": "Santa pants",
   "item.xmasmod.santa_boots": "Santa boots",
-  "block.xmasmod.snow_bricks": "Snow bricks"
+  "block.xmasmod.snow_bricks": "Snow bricks",
+  "block.xmasmod.snow_brick_stairs": "Snow brick stairs",
+  "item.xmasmod.big_gingerbread": "Big gingerbread",
+  "block.xmasmod.baked_big_gingerbread": "Baked big gingerbread"
 }

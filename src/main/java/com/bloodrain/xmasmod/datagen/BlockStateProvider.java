@@ -20,7 +20,7 @@ public class BlockStateProvider extends net.neoforged.neoforge.client.model.gene
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SNOW_BRICKS);
         stairsBlock(ModBlocks.SNOW_BRICK_STAIRS.get(), blockTexture(ModBlocks.SNOW_BRICKS.get()));
-        makeCakeBlock(ModBlocks.BIG_GINGERBREAD.get(), "big_gingerbread");
+        makeCakeBlock(ModBlocks.BAKED_BIG_GINGERBREAD.get(), "baked_big_gingerbread");
         //blockItem(ModBlocks.SNOW_BRICK_STAIRS);
     }
 

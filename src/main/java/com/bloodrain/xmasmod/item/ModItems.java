@@ -15,7 +15,7 @@ public class ModItems {
 
     public static final DeferredItem<BlockItem> SNOW_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("snow_bricks", ModBlocks.SNOW_BRICKS);
     public static final DeferredItem<BlockItem> SNOW_BRICK_STAIRS_ITEM = ITEMS.registerSimpleBlockItem("snow_brick_stairs", ModBlocks.SNOW_BRICK_STAIRS);
-    public static final DeferredItem<BlockItem> BIG_GINGERBREAD = ITEMS.registerSimpleBlockItem("big_gingerbread", ModBlocks.BIG_GINGERBREAD, new Item.Properties().stacksTo(1));
+    public static final DeferredItem<BlockItem> BAKED_BIG_GINGERBREAD = ITEMS.registerSimpleBlockItem("baked_big_gingerbread", ModBlocks.BAKED_BIG_GINGERBREAD, new Item.Properties().stacksTo(1));
 
     public static final DeferredItem<Item> GINGERBREAD_MAN = ITEMS.register("gingerbread_man", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BAKED_GINGERBREAD_MAN = ITEMS.register("baked_gingerbread_man", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
@@ -35,4 +35,5 @@ public class ModItems {
     public static final DeferredItem<Item> SANTA_JACKET = ITEMS.register("santa_jacket", () -> new SantaArmorItem(net.minecraft.world.item.ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> SANTA_PANTS = ITEMS.register("santa_pants", () -> new SantaArmorItem(net.minecraft.world.item.ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> SANTA_BOOTS = ITEMS.register("santa_boots", () -> new SantaArmorItem(net.minecraft.world.item.ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> BIG_GINGERBREAD = ITEMS.register("big_gingerbread", () -> new Item(new Item.Properties().stacksTo(1)));
 }

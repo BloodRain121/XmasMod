@@ -16,5 +16,5 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     public static final DeferredBlock<Block> SNOW_BRICKS = BLOCKS.register("snow_bricks", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).requiresCorrectToolForDrops().strength(0.2F).sound(SoundType.SNOW)));
     public static final DeferredBlock<StairBlock> SNOW_BRICK_STAIRS = BLOCKS.register("snow_brick_stairs", () -> new StairBlock(SNOW_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).requiresCorrectToolForDrops().strength(0.2f).sound(SoundType.SNOW)));
-    public static final DeferredBlock<CakeBlock> BIG_GINGERBREAD = BLOCKS.register("big_gingerbread", () -> new CakeBlock(BlockBehaviour.Properties.of().forceSolidOn().strength(0.5F).sound(SoundType.WOOL).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<CakeBlock> BAKED_BIG_GINGERBREAD = BLOCKS.register("baked_big_gingerbread", () -> new CakeBlock(BlockBehaviour.Properties.of().forceSolidOn().strength(0.5F).sound(SoundType.WOOL).pushReaction(PushReaction.DESTROY)));
 }

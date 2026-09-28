@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "xmasmod:big_gingerbread"
+  },
+  "result": {
+    "id": "xmasmod:baked_big_gingerbread",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
