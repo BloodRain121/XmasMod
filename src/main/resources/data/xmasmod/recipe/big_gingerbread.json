@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "xmasmod:sugar_glaze"
+    },
+    "b": {
+      "item": "xmasmod:gingerbread_dough"
+    }
+  },
+  "result": {
+    "id": "xmasmod:big_gingerbread",
+    "count": 1
+  }
+}

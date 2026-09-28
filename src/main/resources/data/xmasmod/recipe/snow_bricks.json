@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "id": "xmasmod:snow_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemGroup.xmasmod": "Christmas mod",
+  "block.xmasmod.example_block": "Example Block",
+  "item.xmasmod.gingerbread_dough": "Gingerbread dough",
+  "item.xmasmod.baked_gingerbread_dough": "Baked gingerbread dough",
+  "item.xmasmod.gingerbread_man": "Gingerbread man",
+  "item.xmasmod.baked_gingerbread_man": "Gingerbread man",
+  "item.xmasmod.gingerbread_helmet": "Gingerbread helmet",
+  "item.xmasmod.gingerbread_chestplate": "Gingerbread chestplate",
+  "item.xmasmod.gingerbread_leggings": "Gingerbread leggings",
+  "item.xmasmod.gingerbread_boots": "Gingerbread boots",
+  "item.xmasmod.sugar_glaze": "Sugar glaze",
+  "item.xmasmod.candy_cane": "Candy cane",
+  "item.xmasmod.gingerbread_star": "Gingerbread star",
+  "item.xmasmod.baked_gingerbread_star": "Baked gingerbread star",
+  "item.xmasmod.santa_hat": "Santa hat",
+  "item.xmasmod.santa_jacket": "Santa jacket",
+  "item.xmasmod.santa_pants": "Santa pants",
+  "item.xmasmod.santa_boots": "Santa boots",
+  "block.xmasmod.snow_bricks": "Snow bricks"
+}

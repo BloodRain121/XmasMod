@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "xmasmod:block/big_gingerbread"
+    },
+    "bites=1": {
+      "model": "xmasmod:block/big_gingerbread_slice1"
+    },
+    "bites=2": {
+      "model": "xmasmod:block/big_gingerbread_slice2"
+    },
+    "bites=3": {
+      "model": "xmasmod:block/big_gingerbread_slice3"
+    },
+    "bites=4": {
+      "model": "xmasmod:block/big_gingerbread_slice4"
+    },
+    "bites=5": {
+      "model": "xmasmod:block/big_gingerbread_slice5"
+    },
+    "bites=6": {
+      "model": "xmasmod:block/big_gingerbread_slice6"
+    }
+  }
+}
