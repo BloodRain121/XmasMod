@@ -27,6 +27,11 @@ repositories {
             includeGroup("software.bernie.geckolib")
         }
     }
+
+    maven {
+        name = "BlameJared Maven"
+        url = "https://maven.blamejared.com/"
+    }
 }
 
 base {
@@ -90,6 +95,7 @@ configurations {
 
 dependencies {
     implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+    runtimeOnly "mezz.jei:jei-1.21.1-neoforge:${jei_version}"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

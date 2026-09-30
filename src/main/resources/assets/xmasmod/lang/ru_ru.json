@@ -17,7 +17,9 @@
   "item.xmasmod.santa_pants": "Штаны Санты",
   "item.xmasmod.santa_boots": "Ботинки Санты",
   "block.xmasmod.snow_bricks": "Снежные кирпичи",
-  "block.xmasmod.snow_brick_stairs": "Кирпичи из снежных кирпичей",
+  "block.xmasmod.snow_brick_stairs": "Ступеньки из снежных кирпичей",
   "item.xmasmod.big_gingerbread": "Большой пряник",
-  "block.xmasmod.baked_big_gingerbread": "Выпеченный Большой пряник"
+  "item.xmasmod.mulled_wine": "Глинтвейн",
+  "block.xmasmod.baked_big_gingerbread": "Выпеченный Большой пряник",
+  "effect.xmasmod.warmth": "Теплота"
 }

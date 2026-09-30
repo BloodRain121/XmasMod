@@ -19,5 +19,7 @@
   "block.xmasmod.snow_bricks": "Snow bricks",
   "block.xmasmod.snow_brick_stairs": "Snow brick stairs",
   "item.xmasmod.big_gingerbread": "Big gingerbread",
-  "block.xmasmod.baked_big_gingerbread": "Baked big gingerbread"
+  "item.xmasmod.mulled_wine": "Mulled wine",
+  "block.xmasmod.baked_big_gingerbread": "Baked big gingerbread",
+  "effect.xmasmod.warmth": "Warmth"
 }

@@ -31,5 +31,6 @@ public class ItemModelProvider extends net.neoforged.neoforge.client.model.gener
         basicItem(ModItems.SANTA_BOOTS.get());
         basicItem(ModItems.BIG_GINGERBREAD.get());
         basicItem(ModItems.BAKED_BIG_GINGERBREAD.get());
+        basicItem(ModItems.MULLET_WINE.get());
     }
 }

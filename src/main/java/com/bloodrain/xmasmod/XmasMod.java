@@ -1,6 +1,7 @@
 package com.bloodrain.xmasmod;
 
 import com.bloodrain.xmasmod.blocks.ModBlocks;
+import com.bloodrain.xmasmod.effect.ModEffects;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class XmasMod {
         ModBlocks.BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
+        ModEffects.MOB_EFFECTS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
@@ -50,6 +52,7 @@ public class XmasMod {
                 output.accept(BIG_GINGERBREAD.get());
                 output.accept(SUGAR_GLAZE.get());
                 output.accept(CANDY_CANE.get());
+                output.accept(MULLET_WINE.get());
                 output.accept(BAKED_GINGERBREAD_DOUGH.get());
                 output.accept(BAKED_GINGERBREAD_MAN.get());
                 output.accept(BAKED_GINGERBREAD_STAR.get());
