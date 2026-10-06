@@ -1,7 +1,6 @@
 package com.bloodrain.xmasmod.mixin;
 
-import com.bloodrain.xmasmod.item.ModItems;
-import net.minecraft.client.Minecraft;
+import com.bloodrain.xmasmod.item.XMItems;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.model.geom.ModelPart;
@@ -42,7 +41,7 @@ public abstract class HidePlayerBodyPartsMixin extends HumanoidModel<LivingEntit
 
     @Inject(at = @At(value = "TAIL"), method = "setupAnim(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V")
     private void modifyVisibility(LivingEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, CallbackInfo ci) {
-        if (entity.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.SANTA_JACKET)) {
+        if (entity.getItemBySlot(EquipmentSlot.CHEST).is(XMItems.SANTA_JACKET)) {
                 this.body.visible = false;
                 this.rightArm.visible = false;
                 this.leftArm.visible = false;
@@ -51,11 +50,11 @@ public abstract class HidePlayerBodyPartsMixin extends HumanoidModel<LivingEntit
                 this.rightSleeve.visible = false;
                 this.leftSleeve.visible = false;
         }
-        if (entity.getItemBySlot(EquipmentSlot.LEGS).is(ModItems.SANTA_PANTS)) {
+        if (entity.getItemBySlot(EquipmentSlot.LEGS).is(XMItems.SANTA_PANTS)) {
             this.rightPants.visible = false;
             this.leftPants.visible = false;
         }
-        if (entity.getItemBySlot(EquipmentSlot.FEET).is(ModItems.SANTA_BOOTS)) {
+        if (entity.getItemBySlot(EquipmentSlot.FEET).is(XMItems.SANTA_BOOTS)) {
             this.rightPants.visible = false;
             this.leftPants.visible = false;
         }

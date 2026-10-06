@@ -1,7 +1,7 @@
 package com.bloodrain.xmasmod.datagen;
 
 import com.bloodrain.xmasmod.XmasMod;
-import com.bloodrain.xmasmod.blocks.ModBlocks;
+import com.bloodrain.xmasmod.blocks.XMBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -12,37 +12,37 @@ import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
-public class BlockStateProvider extends net.neoforged.neoforge.client.model.generators.BlockStateProvider {
-    public BlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
+public class XMBlockStateProvider extends net.neoforged.neoforge.client.model.generators.BlockStateProvider {
+    public XMBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, XmasMod.MODID, exFileHelper);
     }
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.SNOW_BRICKS);
-        blockItem(ModBlocks.SNOW_BRICK_STAIRS);
-        blockItem(ModBlocks.SNOW_BRICK_SLAB);
-        stairsBlock(ModBlocks.SNOW_BRICK_STAIRS.get(), blockTexture(ModBlocks.SNOW_BRICKS.get()));
-        slabBlock(ModBlocks.SNOW_BRICK_SLAB.get(), blockTexture(ModBlocks.SNOW_BRICKS.get()), blockTexture(ModBlocks.SNOW_BRICKS.get()));
-        cakeBlock(ModBlocks.BAKED_BIG_GINGERBREAD.get(), "baked_big_gingerbread");
+        blockWithItem(XMBlocks.SNOW_BRICKS);
+        blockItem(XMBlocks.SNOW_BRICK_STAIRS);
+        blockItem(XMBlocks.SNOW_BRICK_SLAB);
+        stairsBlock(XMBlocks.SNOW_BRICK_STAIRS.get(), blockTexture(XMBlocks.SNOW_BRICKS.get()));
+        slabBlock(XMBlocks.SNOW_BRICK_SLAB.get(), blockTexture(XMBlocks.SNOW_BRICKS.get()), blockTexture(XMBlocks.SNOW_BRICKS.get()));
+        cakeBlock(XMBlocks.BAKED_BIG_GINGERBREAD.get(), "baked_big_gingerbread");
 
-        vineBlock(ModBlocks.STRING_LIGHTS.get(), "string_lights");
-        vineBlock(ModBlocks.STRING_LIGHTS_RAINBOW.get(), "string_lights_rainbow");
-        vineBlock(ModBlocks.STRING_LIGHTS_RED.get(), "string_lights_red");
-        vineBlock(ModBlocks.STRING_LIGHTS_ORANGE.get(), "string_lights_orange");
-        vineBlock(ModBlocks.STRING_LIGHTS_YELLOW.get(), "string_lights_yellow");
-        vineBlock(ModBlocks.STRING_LIGHTS_LIME.get(), "string_lights_lime");
-        vineBlock(ModBlocks.STRING_LIGHTS_GREEN.get(), "string_lights_green");
-        vineBlock(ModBlocks.STRING_LIGHTS_CYAN.get(), "string_lights_cyan");
-        vineBlock(ModBlocks.STRING_LIGHTS_LIGHT_BLUE.get(), "string_lights_light_blue");
-        vineBlock(ModBlocks.STRING_LIGHTS_BLUE.get(), "string_lights_blue");
-        vineBlock(ModBlocks.STRING_LIGHTS_PURPLE.get(), "string_lights_purple");
-        vineBlock(ModBlocks.STRING_LIGHTS_MAGENTA.get(), "string_lights_magenta");
-        vineBlock(ModBlocks.STRING_LIGHTS_PINK.get(), "string_lights_pink");
-        vineBlock(ModBlocks.STRING_LIGHTS_WHITE.get(), "string_lights_white");
+        vineBlock(XMBlocks.STRING_LIGHTS.get(), "string_lights");
+        vineBlock(XMBlocks.STRING_LIGHTS_RAINBOW.get(), "string_lights_rainbow");
+        vineBlock(XMBlocks.STRING_LIGHTS_RED.get(), "string_lights_red");
+        vineBlock(XMBlocks.STRING_LIGHTS_ORANGE.get(), "string_lights_orange");
+        vineBlock(XMBlocks.STRING_LIGHTS_YELLOW.get(), "string_lights_yellow");
+        vineBlock(XMBlocks.STRING_LIGHTS_LIME.get(), "string_lights_lime");
+        vineBlock(XMBlocks.STRING_LIGHTS_GREEN.get(), "string_lights_green");
+        vineBlock(XMBlocks.STRING_LIGHTS_CYAN.get(), "string_lights_cyan");
+        vineBlock(XMBlocks.STRING_LIGHTS_LIGHT_BLUE.get(), "string_lights_light_blue");
+        vineBlock(XMBlocks.STRING_LIGHTS_BLUE.get(), "string_lights_blue");
+        vineBlock(XMBlocks.STRING_LIGHTS_PURPLE.get(), "string_lights_purple");
+        vineBlock(XMBlocks.STRING_LIGHTS_MAGENTA.get(), "string_lights_magenta");
+        vineBlock(XMBlocks.STRING_LIGHTS_PINK.get(), "string_lights_pink");
+        vineBlock(XMBlocks.STRING_LIGHTS_WHITE.get(), "string_lights_white");
 
-        logBlock(ModBlocks.CANDY_CANE_BLOCK.get());
-        blockItem(ModBlocks.CANDY_CANE_BLOCK);
+        logBlock(XMBlocks.CANDY_CANE_BLOCK.get());
+        blockItem(XMBlocks.CANDY_CANE_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

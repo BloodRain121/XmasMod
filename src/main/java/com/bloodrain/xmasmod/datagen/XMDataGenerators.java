@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = XmasMod.MODID)
-public class DataGenerators {
+public class XMDataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
@@ -25,9 +25,9 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(),
-                List.of(new LootTableProvider.SubProviderEntry(BlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
+                List.of(new LootTableProvider.SubProviderEntry(XMBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
-        generator.addProvider(event.includeClient(), new ItemModelProvider(packOutput, existingFileHelper));
-        generator.addProvider(event.includeClient(), new BlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new XMItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new XMBlockStateProvider(packOutput, existingFileHelper));
     }
 }

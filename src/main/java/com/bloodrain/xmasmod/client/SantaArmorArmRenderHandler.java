@@ -1,7 +1,7 @@
 package com.bloodrain.xmasmod.client;
 
 import com.bloodrain.xmasmod.XmasMod;
-import com.bloodrain.xmasmod.item.ModItems;
+import com.bloodrain.xmasmod.item.XMItems;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.AbstractClientPlayer;
@@ -21,7 +21,7 @@ public class SantaArmorArmRenderHandler {
     @SubscribeEvent
     public static void onRenderArm(RenderArmEvent event) {
         AbstractClientPlayer player = event.getPlayer();
-        if (player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.SANTA_JACKET))
+        if (player.getItemBySlot(EquipmentSlot.CHEST).is(XMItems.SANTA_JACKET))
         {
             if (renderer == null) {
                 renderer = new SantaArmorArmRenderer();

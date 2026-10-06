@@ -17,7 +17,7 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class ArmorMaterials {
+public class XMArmorMaterials {
     public static final Holder<ArmorMaterial> GINGERBREAD_ARMOR_MATERIAL = register("gingerbread",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 1);
@@ -25,7 +25,7 @@ public class ArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 5);
                 attribute.put(ArmorItem.Type.HELMET, 2);
                 attribute.put(ArmorItem.Type.BODY, 4);
-            }), 12, 0.0F, 0.0F, () -> ModItems.BAKED_GINGERBREAD_DOUGH.get());
+            }), 12, 0.0F, 0.0F, () -> XMItems.BAKED_GINGERBREAD_DOUGH.get());
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,

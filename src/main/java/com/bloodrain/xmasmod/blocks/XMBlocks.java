@@ -1,6 +1,6 @@
 package com.bloodrain.xmasmod.blocks;
 
-import com.bloodrain.xmasmod.item.ModItems;
+import com.bloodrain.xmasmod.item.XMItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 import static com.bloodrain.xmasmod.XmasMod.MODID;
 
-public class ModBlocks {
+public class XMBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
 
     public static final DeferredBlock<Block> SNOW_BRICKS = registerBlock("snow_bricks", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).requiresCorrectToolForDrops().strength(0.2F).sound(SoundType.SNOW)));
@@ -44,6 +44,6 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        XMItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 }

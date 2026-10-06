@@ -1,8 +1,8 @@
 package com.bloodrain.xmasmod;
 
-import com.bloodrain.xmasmod.blocks.ModBlocks;
-import com.bloodrain.xmasmod.effect.ModEffects;
-import com.bloodrain.xmasmod.item.ModItems;
+import com.bloodrain.xmasmod.blocks.XMBlocks;
+import com.bloodrain.xmasmod.effect.XMEffects;
+import com.bloodrain.xmasmod.item.XMItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -18,10 +18,10 @@ public class XmasMod {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public XmasMod(IEventBus modEventBus, ModContainer modContainer) {
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModItems.ITEMS.register(modEventBus);
+        XMBlocks.BLOCKS.register(modEventBus);
+        XMItems.ITEMS.register(modEventBus);
         ModCreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
-        ModEffects.MOB_EFFECTS.register(modEventBus);
+        XMEffects.MOB_EFFECTS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
