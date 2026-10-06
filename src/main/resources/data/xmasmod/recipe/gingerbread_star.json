@@ -8,11 +8,11 @@
       "item": "xmasmod:sugar_glaze"
     },
     {
-      "item": "xmasmod:baking_pan_man"
+      "item": "xmasmod:baking_pan_star"
     }
   ],
   "result": {
-    "id": "xmasmod:gingerbread_man",
+    "id": "xmasmod:gingerbread_star",
     "count": 1
   }
 }

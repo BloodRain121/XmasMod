@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "xmasmod:string_lights",
+    "count": 4
+  }
+}

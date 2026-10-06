@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "xmasmod:snow_bricks",
-    "xmasmod:snow_brick_stairs"
+    "xmasmod:snow_brick_stairs",
+    "xmasmod:snow_brick_slab"
   ]
 }

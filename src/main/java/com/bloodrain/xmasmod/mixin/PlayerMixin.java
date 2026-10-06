@@ -1,8 +1,6 @@
 package com.bloodrain.xmasmod.mixin;
 
 import com.bloodrain.xmasmod.item.GingerbreadArmorItem;
-import com.bloodrain.xmasmod.item.ModItems;
-import com.google.common.collect.HashBasedTable;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

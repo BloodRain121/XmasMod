@@ -11,8 +11,6 @@ public class SantaArmorArmAnimatable implements GeoAnimatable {
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
-        // Здесь вы можете зарегистрировать контроллеры анимаций (например, для idle или swing)
-        // controllers.add(new AnimationController<>(this, "controller", 0, event -> PlayState.CONTINUE));
     }
 
     @Override

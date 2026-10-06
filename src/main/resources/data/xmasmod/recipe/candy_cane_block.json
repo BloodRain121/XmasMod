@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "xmasmod:candy_cane"
+    }
+  },
+  "result": {
+    "id": "xmasmod:candy_cane_block",
+    "count": 1
+  }
+}

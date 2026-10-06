@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "cbe",
+    " fg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    },
+    "e": {
+      "item": "minecraft:blue_dye"
+    },
+    "f": {
+      "item": "minecraft:lime_dye"
+    },
+    "g": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "xmasmod:string_lights_rainbow",
+    "count": 4
+  }
+}

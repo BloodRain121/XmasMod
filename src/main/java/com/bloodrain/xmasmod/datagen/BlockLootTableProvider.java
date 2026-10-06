@@ -18,7 +18,23 @@ public class BlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.SNOW_BRICKS.get());
         dropSelf(ModBlocks.SNOW_BRICK_STAIRS.get());
+        dropSelf(ModBlocks.SNOW_BRICK_SLAB.get());
         dropSelf(ModBlocks.BAKED_BIG_GINGERBREAD.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_RAINBOW.get());
+        dropSelf(ModBlocks.STRING_LIGHTS.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_RED.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_ORANGE.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_YELLOW.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_GREEN.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_LIME.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_CYAN.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_LIGHT_BLUE.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_BLUE.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_PURPLE.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_MAGENTA.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_PINK.get());
+        dropSelf(ModBlocks.STRING_LIGHTS_WHITE.get());
+        dropSelf(ModBlocks.CANDY_CANE_BLOCK.get());
     }
 
     @Override
