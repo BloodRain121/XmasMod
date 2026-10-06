@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cake_slice4",
+  "textures": {
+    "bottom": "xmasmod:block/baked_big_gingerbread_bottom",
+    "inside": "xmasmod:block/baked_big_gingerbread_inner",
+    "side": "xmasmod:block/baked_big_gingerbread_side",
+    "top": "xmasmod:block/baked_big_gingerbread_top"
+  }
+}

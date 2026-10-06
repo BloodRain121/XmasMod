@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xmasmod:block/snow_brick_slab"
+    },
+    "type=double": {
+      "model": "xmasmod:block/snow_bricks"
+    },
+    "type=top": {
+      "model": "xmasmod:block/snow_brick_slab_top"
+    }
+  }
+}

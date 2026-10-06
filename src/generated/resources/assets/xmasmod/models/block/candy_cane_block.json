@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "xmasmod:block/candy_cane_block_top",
+    "side": "xmasmod:block/candy_cane_block"
+  }
+}
